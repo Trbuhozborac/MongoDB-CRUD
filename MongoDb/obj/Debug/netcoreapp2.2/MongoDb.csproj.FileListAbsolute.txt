@@ -1,0 +1,10 @@
+C:\Users\I7\Documents\Visual Studio 2017\Projects\MongoDb\MongoDb\bin\Debug\netcoreapp2.2\MongoDb.deps.json
+C:\Users\I7\Documents\Visual Studio 2017\Projects\MongoDb\MongoDb\bin\Debug\netcoreapp2.2\MongoDb.runtimeconfig.json
+C:\Users\I7\Documents\Visual Studio 2017\Projects\MongoDb\MongoDb\bin\Debug\netcoreapp2.2\MongoDb.runtimeconfig.dev.json
+C:\Users\I7\Documents\Visual Studio 2017\Projects\MongoDb\MongoDb\bin\Debug\netcoreapp2.2\MongoDb.dll
+C:\Users\I7\Documents\Visual Studio 2017\Projects\MongoDb\MongoDb\obj\Debug\netcoreapp2.2\MongoDb.csproj.CoreCompileInputs.cache
+C:\Users\I7\Documents\Visual Studio 2017\Projects\MongoDb\MongoDb\obj\Debug\netcoreapp2.2\MongoDb.AssemblyInfoInputs.cache
+C:\Users\I7\Documents\Visual Studio 2017\Projects\MongoDb\MongoDb\obj\Debug\netcoreapp2.2\MongoDb.AssemblyInfo.cs
+C:\Users\I7\Documents\Visual Studio 2017\Projects\MongoDb\MongoDb\bin\Debug\netcoreapp2.2\MongoDb.pdb
+C:\Users\I7\Documents\Visual Studio 2017\Projects\MongoDb\MongoDb\obj\Debug\netcoreapp2.2\MongoDb.dll
+C:\Users\I7\Documents\Visual Studio 2017\Projects\MongoDb\MongoDb\obj\Debug\netcoreapp2.2\MongoDb.pdb
