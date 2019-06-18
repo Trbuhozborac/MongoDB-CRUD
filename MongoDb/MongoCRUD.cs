@@ -36,5 +36,22 @@ namespace MongoDb
 
             return collection.Find(filter).First();
         }
+
+        public void UpsertRecords<T>(string table, Guid id, T record)
+        {
+            var collection = db.GetCollection<T>(table);
+
+            var result = collection.ReplaceOne(
+                new BsonDocument("_id", id),
+                record,
+                new UpdateOptions { IsUpsert = true });
+        }
+
+        public void DeleteRecord<T>(string table, Guid id)
+        {
+            var collection = db.GetCollection<T>(table);
+            var filter = Builders<T>.Filter.Eq("Id", id);
+            collection.DeleteOne(filter); 
+        }
     }
 }

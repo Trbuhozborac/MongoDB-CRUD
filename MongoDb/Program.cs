@@ -21,20 +21,28 @@ namespace MongoDb
             //};
             //db.InsertRecord("Users", person);
 
-            //var recs = db.LoadRecords<PersonModel>("Users");
+            var recs = db.LoadRecords<NameModel>("Users");
+            foreach (var rec in recs)
+            {
+                Console.WriteLine($"{rec.FirstName} {rec.LastName}");
+                Console.WriteLine();
+            }
 
-            //foreach(var rec in recs)
+            //foreach (var rec in recs)
             //{
             //    Console.WriteLine($"{rec.Id}: {rec.FirstName} {rec.LastName}");
 
-            //    if(rec.PrimaryAddress != null)
+            //    if (rec.PrimaryAddress != null)
             //    {
             //        Console.WriteLine(rec.PrimaryAddress.City);
             //    }
 
             //    Console.WriteLine();
             //}
-            var oneRec = db.LoadRecordById<PersonModel>("Users", new Guid("d326ee5c-a05e-4b95-91f4-50e4aba443be"));
+            // var oneRec = db.LoadRecordById<PersonModel>("Users", new Guid("d326ee5c-a05e-4b95-91f4-50e4aba443be"));
+            //oneRec.DateOfBirth = new DateTime(1982, 10, 31, 0, 0, 0, DateTimeKind.Utc);
+            //db.UpsertRecords("Users", oneRec.Id, oneRec);
+            // db.DeleteRecord<PersonModel>("Users", oneRec.Id);
 
             Console.ReadLine();
         }
